@@ -1,0 +1,117 @@
+{
+  "main": {
+    "id": "a46818f526b24d56",
+    "type": "split",
+    "children": [
+      {
+        "id": "51d5721cc94cd46d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "biology/cells.md",
+            "mode": "preview",
+            "source": true
+          }
+        },
+        "group": "043a19e805a3ee7a"
+      },
+      {
+        "id": "e2edba5328124ace",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "biology/cells.md",
+            "mode": "source",
+            "source": true
+          }
+        },
+        "group": "043a19e805a3ee7a"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ede781f06660584d",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f4ce4edbc0b3e78",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "94468eb2bf551b54",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b31c28fc654c2498",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "intermediate",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a0c2f6abcc0abe8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b9f4a5328f245b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c569e9b8083e9bf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "biology/cells.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e2edba5328124ace",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "pages/Critical Values.md",
+    "pages/First Derivative Test.md",
+    "Main.md",
+    "pages/Motion.md",
+    "pages/Growth.md",
+    "pages/Differentials.md",
+    "pages/Continuity.md",
+    "pages/Alternating Series Test.md",
+    "pages/Integration.md"
+  ]
+}
