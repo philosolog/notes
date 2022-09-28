@@ -1,29 +1,33 @@
 {
   "main": {
-    "id": "7e44e5bd3251e577",
+    "id": "a46818f526b24d56",
     "type": "split",
     "children": [
       {
-        "id": "26a3903e67f286cd",
+        "id": "a9c554c64f2787dd",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "pages/Critical Values.md",
+            "mode": "preview",
+            "source": false
+          }
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d06b8fc2bc989edf",
+    "id": "ede781f06660584d",
     "type": "split",
     "children": [
       {
-        "id": "49c0984ada78e95e",
+        "id": "5f4ce4edbc0b3e78",
         "type": "tabs",
         "children": [
           {
-            "id": "428cf50e0cf87b3c",
+            "id": "94468eb2bf551b54",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -31,26 +35,18 @@
             }
           },
           {
-            "id": "cc64556c781026e8",
+            "id": "b31c28fc654c2498",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "intermediate",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "350dbcecde80e78e",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
             }
           }
         ]
@@ -60,19 +56,20 @@
     "width": 300
   },
   "right": {
-    "id": "a3f6c4b10a4e2d4a",
+    "id": "a0c2f6abcc0abe8b",
     "type": "split",
     "children": [
       {
-        "id": "72e8b7c8e1914c2b",
+        "id": "1b9f4a5328f245b4",
         "type": "tabs",
         "children": [
           {
-            "id": "b2e71b6d094a9f4f",
+            "id": "2c569e9b8083e9bf",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/Critical Values.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,36 +79,6 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "1c42985200fe46ac",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "8428205fd337b573",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "204697f221cb7139",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
           }
         ]
       }
@@ -120,6 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "428cf50e0cf87b3c",
-  "lastOpenFiles": []
+  "active": "a9c554c64f2787dd",
+  "lastOpenFiles": [
+    "pages/Critical Values.md",
+    "pages/First Derivative Test.md",
+    "Main.md",
+    "pages/Motion.md",
+    "pages/Growth.md",
+    "pages/Differentials.md",
+    "pages/Continuity.md",
+    "pages/Alternating Series Test.md",
+    "pages/Integration.md",
+    "pages/Product Rule.md"
+  ]
 }
