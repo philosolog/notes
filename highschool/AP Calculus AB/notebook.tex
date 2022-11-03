@@ -3,6 +3,7 @@
 % \usepackage{cmbright}
 
 \usepackage{faktor}
+\usepackage{pgffor}
 
 \makeatletter
 \DeclareRobustCommand*{\mfaktor}[3][]
@@ -17,16 +18,27 @@
       \mkern-4mu\diagdown\mkern-5mu%
       \raisebox{0.5\faktor@nennerhoehe}{\ensuremath{#1#2{#4}}}%
 }
+\newcommand*{\lecturerange}{1} % TODO: Read values?
+
 \makeatother
 
 \DeclareMathOperator{\Ker}{ker}
 \DeclareMathOperator{\im}{Im}
 
-\title{Calculus I}
+\title{AP Calculus AB}
 \begin{document}
-    \maketitle
-    \tableofcontents
-    % start lessons
-    \input{./notes/lecture 1.tex}
-    % end lessons
+\maketitle
+\newpage
+\tableofcontents
+% start lessons
+\foreach \lecturenumber in {1,2,...,\lecturerange}{%
+	\edef\FileName{./notes/lecture \lecturenumber.tex}
+	\IfFileExists{\FileName} {%
+		\par
+		\input{\FileName}%
+	}{%
+		% files does not exist, so nothing to do
+	}%
+}%
+% end lessons
 \end{document}

@@ -200,15 +200,6 @@
 %   \thm@preskip=\parskip \thm@postskip=0pt
 % }
 
-\newcommand{\oefening}[1]{%
-    \def\@oefening{#1}%
-    \subsection*{Oefening #1}
-}
-
-\newcommand{\suboefening}[1]{%
-    \subsubsection*{Oefening \@oefening.#1}
-}
-
 \newcommand{\exercise}[1]{%
     \def\@exercise{#1}%
     \subsection*{Exercise #1}
@@ -241,14 +232,14 @@
 
 
 % fancy headers
-\usepackage{fancyhdr}
-\pagestyle{fancy}
+% \usepackage{fancyhdr}
+% \pagestyle{fancy}
 
-% \fancyhead[LE,RO]{Gilles Castel}
+% \fancyhead[LE,RO]{Aaron Wang}
 % \fancyhead[RO,LE]{\@lesson}
 % \fancyhead[RE,LO]{}
 % \fancyfoot[LE,RO]{\thepage}
-\fancyfoot[C]{\leftmark}
+% \fancyfoot[C]{\leftmark}
 
 \makeatother
 
